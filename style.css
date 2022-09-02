@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(3, 3, 3), rgb(245, 72, 101));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    justify-content: center space-between;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 80px;
+    color: transparent;
+}
+
+.main{
+    display: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main audio{
+    display: flex;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    max-width: 300px;
+    max-height: 100px;
+    gap: 50px;
+}
+
+.btn{
+    max-height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.btn input{
+    position: relative;
+    top: 50px;
+    width: 50px;
+    height: 50px;
+    border-color: chartreuse;
+    color: chartreuse;
+    background: transparent;
+    cursor: pointer;
+}
+
+
